@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const Homepage = () => {
   return (
@@ -8,18 +9,25 @@ const Homepage = () => {
       <div className="h-full flex flex-col gap-x-8 gap-y-2 lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
         {/* IMAGE CONTAINER */}
         <div className="h-1/2 lg:h-full lg:w-1/2 relative">
-          <Image src="/heropic.png" alt="" fill className="object-contain" />
+          <Image src="/AdobeStock_654382929.png" alt="" fill className="object-contain" />
         </div>
         {/* TEXT CONTAINER */}
         <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center">
           {/* TITLE */}
-          <h1 className="text-4xl md:text-6xl font-bold">Lorem ipsum dolor sit amet</h1>
+          <h1 className="text-4xl md:text-6xl font-bold">Drönarpiloten</h1>
           {/* DESC */}
           <p className="md:text-xl">
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-            laborum.
+            Som certifierad UAS-operatör (drönarpilot) erbjuder jag skräddarsydda drönartjänster för diverse ändamål.
+            Från kartläggning och inspektioner till imponerande luftfotograferingar och filmning, jag är här för att
+            leverera högkvalitativa resultat med precision och professionalism.
+          </p>
+          <p className="md:text-xl">
+            Med gedigen erfarenhet inom drönarteknik, kan jag hjälpa dig med allt från markanalyser och
+            byggarbetsplatser till evenemangsdokumentation och fastighetsfotografering.{" "}
+            <Link href="/kontakt" className="text-red-500 font-semibold hover:underline">
+              Kontakta mig
+            </Link>{" "}
+            idag för att diskutera hur jag kan optimera ditt projekt med mina skräddarsydda drönartjänster.
           </p>
           <div className="w-full flex gap-4">
             <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">Knapp 1</button>

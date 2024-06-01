@@ -8,9 +8,9 @@ import { motion } from "framer-motion";
 
 const links = [
   { url: "/", title: "Home" },
-  { url: "/about", title: "About" },
+  { url: "/om-mig", title: "OmMig" },
   { url: "/portfolio", title: "Portfolio" },
-  { url: "/contact", title: "Contact" }
+  { url: "/kontakt", title: "Kontakt" }
 ];
 
 const Navbar = () => {
@@ -127,7 +127,7 @@ const Navbar = () => {
             variants={listVariants}
             initial="closed"
             animate="opened"
-            className="absolute top-0 left-0 w-screen h-screen bg-black text-white flex flex-col items-center justify-center gap-8 text-4xl z-40"
+            className="absolute top-0 left-0 w-screen h-screen bg-black text-white flex flex-col items-center justify-center gap-8 text-4xl z-50"
           >
             {links.map((link) => (
               <motion.div variants={listItemVariants} className="" key={link.title}>
