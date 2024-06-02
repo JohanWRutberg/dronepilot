@@ -22,8 +22,6 @@ const Homepage = () => {
             högkvalitativa resultat med precision och professionalism.
           </p>
           <p className="text-md lg:text-xl">
-            Med gedigen erfarenhet inom drönarteknik, kan jag hjälpa dig med allt från markanalyser och
-            byggarbetsplatser till evenemangsdokumentation och fastighetsfotografering.{" "}
             <Link href="/kontakt" className="text-red-500 font-semibold hover:underline">
               Kontakta mig
             </Link>{" "}
