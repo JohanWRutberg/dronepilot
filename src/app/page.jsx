@@ -21,12 +21,12 @@ const Homepage = () => {
             kartläggning och inspektioner till imponerande luftfotograferingar och filmning, jag är här för att leverera
             högkvalitativa resultat med precision och professionalism.
           </p>
-          <p className="text-md lg:text-xl">
+          {/* <p className="text-md lg:text-xl">
             <Link href="/kontakt" className="text-red-500 font-semibold hover:underline">
               Kontakta mig
             </Link>{" "}
             idag för att diskutera hur jag kan optimera ditt projekt med mina skräddarsydda drönartjänster.
-          </p>
+          </p> */}
           <div className="w-full flex gap-4">
             <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">Knapp 1</button>
             <button className="p-4 rounded-lg ring-1 ring-black">Knapp 2</button>
