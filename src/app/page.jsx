@@ -8,11 +8,11 @@ const Homepage = () => {
     <motion.div className="h-full" initial={{ y: "-200vh" }} animate={{ y: "0%" }} transition={{ duration: 1 }}>
       <div className="h-full flex flex-col gap-x-8 gap-y-2 lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
         {/* IMAGE CONTAINER */}
-        <div className="h-1/2 lg:h-full lg:w-1/2 relative mb-5">
+        <div className="h-1/3 lg:h-full lg:w-1/2 relative mb-2">
           <Image src="/AdobeStock_654382929.png" alt="" fill className="object-contain" />
         </div>
         {/* TEXT CONTAINER */}
-        <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col mt-5 gap-8 items-center justify-center">
+        <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center">
           {/* TITLE */}
           <h1 className="text-4xl lg:text-6xl font-bold">Drönarpiloten</h1>
           {/* DESC */}
@@ -28,8 +28,8 @@ const Homepage = () => {
             idag för att diskutera hur jag kan optimera ditt projekt med mina skräddarsydda drönartjänster.
           </p> */}
           <div className="w-full flex gap-4">
-            <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">Knapp 1</button>
-            <button className="p-4 rounded-lg ring-1 ring-black">Knapp 2</button>
+            <button className="p-2 rounded-lg ring-1 ring-black bg-black text-white">Knapp 1</button>
+            <button className="p-2 rounded-lg ring-1 ring-black">Knapp 2</button>
           </div>
         </div>
       </div>
