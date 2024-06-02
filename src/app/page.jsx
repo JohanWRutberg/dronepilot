@@ -8,20 +8,20 @@ const Homepage = () => {
     <motion.div className="h-full" initial={{ y: "-200vh" }} animate={{ y: "0%" }} transition={{ duration: 1 }}>
       <div className="h-full flex flex-col gap-x-8 gap-y-2 lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
         {/* IMAGE CONTAINER */}
-        <div className="h-1/2 lg:h-full lg:w-1/2 relative">
+        <div className="h-1/2 lg:h-full lg:w-1/2 relative mb-5">
           <Image src="/AdobeStock_654382929.png" alt="" fill className="object-contain" />
         </div>
         {/* TEXT CONTAINER */}
-        <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center">
+        <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col mt-5 gap-8 items-center justify-center">
           {/* TITLE */}
-          <h1 className="text-4xl md:text-6xl font-bold">Drönarpiloten</h1>
+          <h1 className="text-4xl lg:text-6xl font-bold">Drönarpiloten</h1>
           {/* DESC */}
-          <p className="md:text-xl">
-            Som certifierad UAS-operatör (drönarpilot) erbjuder jag skräddarsydda drönartjänster för diverse ändamål.
-            Från kartläggning och inspektioner till imponerande luftfotograferingar och filmning, jag är här för att
-            leverera högkvalitativa resultat med precision och professionalism.
+          <p className="text-md lg:text-xl">
+            Som UAS-operatör (drönarpilot) erbjuder jag skräddarsydda drönartjänster för diverse ändamål. Från
+            kartläggning och inspektioner till imponerande luftfotograferingar och filmning, jag är här för att leverera
+            högkvalitativa resultat med precision och professionalism.
           </p>
-          <p className="md:text-xl">
+          <p className="text-md lg:text-xl">
             Med gedigen erfarenhet inom drönarteknik, kan jag hjälpa dig med allt från markanalyser och
             byggarbetsplatser till evenemangsdokumentation och fastighetsfotografering.{" "}
             <Link href="/kontakt" className="text-red-500 font-semibold hover:underline">

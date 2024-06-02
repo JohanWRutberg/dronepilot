@@ -48,7 +48,7 @@ const Portfolio = () => {
   return (
     <motion.div className="h-full" initial={{ y: "-200vh" }} animate={{ y: "0%" }} transition={{ duration: 1 }}>
       <div className="h-[600vh] relative" ref={ref}>
-        <div className="w-screen h-[calc(100vh-6rem)] flex items-center justify-center text-8xl text-center">
+        <div className="w-screen h-[calc(100vh-6rem)] flex items-center justify-center text-5xl md:text-8xl text-center">
           Mina Uppdrag
           <div>
             {/* BIOGRAPHY SCROLL SVG */}
@@ -70,7 +70,7 @@ const Portfolio = () => {
               <path d="M12 6V14" stroke="#000000" strokeWidth="1"></path>
               <path d="M15 11L12 14L9 11" stroke="#000000" strokeWidth="1"></path>
             </motion.svg>
-        </div>
+          </div>
         </div>
 
         <div className="sticky top-0 flex h-screen gap-4 items-center overflow-hidden">
