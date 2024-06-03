@@ -161,7 +161,7 @@ const About = () => {
               initial={{ x: "-300px" }}
               animate={isExperienceRefInView ? { x: "0" } : {}}
               transition={{ delay: 0.2 }}
-              className="flex flex-col justify-start items-center pr-2 font-bold text-2xl"
+              className="flex flex-col justify-start items-center pr-2 font-bold text-xl lg:text-2xl"
             >
               UTBILDNING & ERFARENHET
             </motion.h1>
@@ -173,13 +173,15 @@ const About = () => {
                 {/* LEFT */}
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
-                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">JavaScript utvecklare</div>
+                  <div className="bg-white p-3 text-xs lg:text-sm font-semibold rounded-b-lg rounded-s-lg">
+                    JavaScript utvecklare
+                  </div>
                   {/* JOB DESC */}
-                  <div className="p-3 text-sm italic">Frontend och Backend utveckling inom JavaScript.</div>
+                  <div className="p-3 text-xs lg:text-sm italic">Frontend och Backend utveckling inom JavaScript.</div>
                   {/* JOB DATE */}
-                  <div className="p-3 text-red-400 text-sm font-semibold">2022 - 2024</div>
+                  <div className="p-3 text-red-400 text-xs lg:text-sm font-semibold">2022 - 2024</div>
                   {/* JOB COMPANY */}
-                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">IT-Högskolan</div>
+                  <div className="p-1 rounded bg-white text-xs lg:text-sm font-semibold w-fit">IT-Högskolan</div>
                 </div>
                 {/* CENTER */}
                 <div className="w-1/6 flex justify-center">
@@ -207,13 +209,17 @@ const About = () => {
                 {/* RIGHT */}
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
-                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-e-lg">Surveillance Analyst</div>
+                  <div className="bg-white p-3 text-xs lg:text-sm font-semibold rounded-b-lg rounded-e-lg">
+                    Surveillance Analyst
+                  </div>
                   {/* JOB DESC */}
-                  <div className="p-3 text-sm italic">Analytiker på Casino Cosmopols övervakningscentral.</div>
+                  <div className="p-3 text-xs lg:text-sm italic">
+                    Analytiker på Casino Cosmopols övervaknings- central.
+                  </div>
                   {/* JOB DATE */}
-                  <div className="p-3 text-red-400 text-sm font-semibold">2024 - Idag</div>
+                  <div className="p-3 text-red-400 text-xs lg:text-sm font-semibold">2024 - Idag</div>
                   {/* JOB COMPANY */}
-                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">Casino Cosmopol</div>
+                  <div className="p-1 rounded bg-white text-xs lg:text-sm font-semibold w-fit">Casino Cosmopol</div>
                 </div>
               </div>
               {/* EXPERIENCE LIST ITEM */}
@@ -221,15 +227,17 @@ const About = () => {
                 {/* LEFT */}
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
-                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">Fullstack (praktik)</div>
+                  <div className="bg-white p-3 text-xs lg:text-sm font-semibold rounded-b-lg rounded-s-lg">
+                    Fullstack (praktik)
+                  </div>
                   {/* JOB DESC */}
-                  <div className="p-3 text-sm italic">
+                  <div className="p-3 text-xs lg:text-sm italic">
                     Fullstack utveckling i JavaScript. Var med och utvecklade en app från grunden till företaget.{" "}
                   </div>
                   {/* JOB DATE */}
-                  <div className="p-3 text-red-400 text-sm font-semibold">2024 - 2024</div>
+                  <div className="p-3 text-red-400 text-xs lg:text-sm font-semibold">2024 - 2024</div>
                   {/* JOB COMPANY */}
-                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">Optimental</div>
+                  <div className="p-1 rounded bg-white text-xs lg:text-sm font-semibold w-fit">Optimental</div>
                 </div>
                 {/* CENTER */}
                 <div className="w-1/6 flex justify-center">
@@ -258,13 +266,15 @@ const About = () => {
                 {/* RIGHT */}
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
-                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-e-lg">Surveillance Officer</div>
+                  <div className="bg-white p-3 text-xs lg:text-sm font-semibold rounded-b-lg rounded-e-lg">
+                    Surveillance Officer
+                  </div>
                   {/* JOB DESC */}
-                  <div className="p-3 text-sm italic">Surveillance Officer</div>
+                  <div className="p-3 text-xs lg:text-sm italic">Surveillance Officer</div>
                   {/* JOB DATE */}
-                  <div className="p-3 text-red-400 text-sm font-semibold">2003 - 2024</div>
+                  <div className="p-3 text-red-400 text-xs lg:text-sm font-semibold">2003 - 2024</div>
                   {/* JOB COMPANY */}
-                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">Casino Cosmopol</div>
+                  <div className="p-1 rounded bg-white text-xs lg:text-sm font-semibold w-fit">Casino Cosmopol</div>
                 </div>
               </div>
               {/* EXPERIENCE LIST ITEM */}
@@ -272,13 +282,17 @@ const About = () => {
                 {/* LEFT */}
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
-                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">Frontend (praktik)</div>
+                  <div className="bg-white p-3 text-xs lg:text-sm font-semibold rounded-b-lg rounded-s-lg">
+                    Frontend (praktik)
+                  </div>
                   {/* JOB DESC */}
-                  <div className="p-3 text-sm italic">Var med och byggde upp delar av sidan Bildhistoria.se. </div>
+                  <div className="p-3 text-xs lg:text-sm italic">
+                    Var med och byggde upp delar av sidan Bildhistoria.se.{" "}
+                  </div>
                   {/* JOB DATE */}
-                  <div className="p-3 text-red-400 text-sm font-semibold">2023 - 2023</div>
+                  <div className="p-3 text-red-400 text-xs lg:text-sm font-semibold">2023 - 2023</div>
                   {/* JOB COMPANY */}
-                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">Bildhistoria</div>
+                  <div className="p-1 rounded bg-white text-xs lg:text-sm font-semibold w-fit">Bildhistoria</div>
                 </div>
                 {/* CENTER */}
                 <div className="w-1/6 flex justify-center">
@@ -306,15 +320,17 @@ const About = () => {
                 {/* RIGHT */}
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
-                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-e-lg">Surveillance Team Manager</div>
+                  <div className="bg-white p-3 text-xs lg:text-sm font-semibold rounded-b-lg rounded-e-lg">
+                    Surveillance Team Manager
+                  </div>
                   {/* JOB DESC */}
-                  <div className="p-3 text-sm italic">
-                    Vikarierande Surveillance Team Manager på övervakningscentralen för Casino Cosmopol.
+                  <div className="p-3 text-xs lg:text-sm italic">
+                    Vikarierande Surveillance Team Manager på övervaknings- centralen för Casino Cosmopol.
                   </div>
                   {/* JOB DATE */}
-                  <div className="p-3 text-red-400 text-sm font-semibold">2019 - 2020</div>
+                  <div className="p-3 text-red-400 text-xs lg:text-sm font-semibold">2019 - 2020</div>
                   {/* JOB COMPANY */}
-                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">Casino Cosmopol</div>
+                  <div className="p-1 rounded bg-white text-xs lg:text-sm font-semibold w-fit">Casino Cosmopol</div>
                 </div>
               </div>
               {/* EXPERIENCE LIST ITEM */}
@@ -322,13 +338,17 @@ const About = () => {
                 {/* LEFT */}
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
-                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">Systemutveckling</div>
+                  <div className="bg-white p-3 text-xs lg:text-sm font-semibold rounded-b-lg rounded-s-lg">
+                    Systemutveckling
+                  </div>
                   {/* JOB DESC */}
-                  <div className="p-3 text-sm italic">Systemutveckling inom C, C++, Assembler. Telekommunikation.</div>
+                  <div className="p-3 text-xs lg:text-sm italic">
+                    Systemutveckling inom C, C++, Assembler. Tele- kommunikation.
+                  </div>
                   {/* JOB DATE */}
-                  <div className="p-3 text-red-400 text-sm font-semibold">2023 - 2023</div>
+                  <div className="p-3 text-red-400 text-xs lg:text-sm font-semibold">1998 - 2000</div>
                   {/* JOB COMPANY */}
-                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">Bildhistoria</div>
+                  <div className="p-1 rounded bg-white text-xs lg:text-sm font-semibold w-fit">YH - TeliT</div>
                 </div>
                 {/* CENTER */}
                 <div className="w-1/6 flex justify-center">
