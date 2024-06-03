@@ -29,6 +29,7 @@ const Homepage = () => {
           </p> */}
           <div className="w-full flex gap-4">
             <button className="p-2 rounded-lg ring-1 ring-black bg-black text-white">Knapp 1</button>
+
             <button className="p-2 rounded-lg ring-1 ring-black">Knapp 2</button>
           </div>
         </div>

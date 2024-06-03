@@ -24,17 +24,19 @@ const About = () => {
           {/* BIOGRAPHY CONTAINER */}
           <div className="flex flex-col gap-12 justify-center">
             {/* BIOGRAPHY IMAGE */}
-            <Image src="/Selfie2.jpg" alt="" width={140} height={140} className="w-48 h-48 rounded-full object-cover" />
+            <Image
+              src="/Selfie2.jpg"
+              alt=""
+              width={140}
+              height={140}
+              className="w-48 h-48 rounded-full border-4 border-black object-cover"
+            />
             {/* BIOGRAPHY TITLE */}
             <h1 className="font-bold text-2xl">BIOGRAFI</h1>
             {/* BIOGRAPHY DESC */}
-            <p className="text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum harum quibusdam cupiditate nobis
-              accusamus sed aut aperiam, reiciendis numquam! Voluptas voluptatibus obcaecati dolore itaque suscipit! Vel
-              doloremque numquam quam nihil.
-            </p>
+            <p className="text-lg">Fjärrpilot inom den öppna kategorin A1, A2 och A3.</p>
             {/* BIOGRAPHY QUOTE */}
-            <span className="italic">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+            <span className="italic">Innehar därmed det obligatoriska drönarkortet.</span>
             {/* BIOGRAPHY SIGN SVG 1.17 */}
             <div className="self-end">
               {/* <svg width="185" height="77" viewBox="0 0 370 114" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -74,7 +76,7 @@ const About = () => {
               transition={{ delay: 0.2 }}
               className="font-bold text-2xl"
             >
-              SKILLS
+              FÄRDIGHETER
             </motion.h1>
             {/* SKILL LIST */}
             <motion.div
@@ -151,17 +153,19 @@ const About = () => {
               <path d="M15 11L12 14L9 11" stroke="#000000" strokeWidth="1"></path>
             </motion.svg>
           </div>
+
           {/* EXPERIENCE CONTAINER */}
           <div className="flex flex-col gap-12 justify-center pb-48" ref={experienceRef}>
-            {/* EXPERIENCE TITLE */}
+            {/* EEDUCATION TITLE */}
             <motion.h1
               initial={{ x: "-300px" }}
               animate={isExperienceRefInView ? { x: "0" } : {}}
               transition={{ delay: 0.2 }}
-              className="font-bold text-2xl"
+              className="flex flex-col justify-start items-center pr-2 font-bold text-2xl"
             >
-              EXPERIENCE
+              UTBILDNING & ERFARENHET
             </motion.h1>
+
             {/* EXPERIENCE LIST */}
             <motion.div initial={{ x: "-300px" }} animate={isExperienceRefInView ? { x: "0" } : {}} className="">
               {/* EXPERIENCE LIST ITEM */}
@@ -169,15 +173,13 @@ const About = () => {
                 {/* LEFT */}
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
-                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">Erfarenhet 1</div>
+                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">JavaScript utvecklare</div>
                   {/* JOB DESC */}
-                  <div className="p-3 text-sm italic">
-                    I led web development, offering expertise in JavaScript frameworks.{" "}
-                  </div>
+                  <div className="p-3 text-sm italic">Frontend och Backend utveckling inom JavaScript.</div>
                   {/* JOB DATE */}
-                  <div className="p-3 text-red-400 text-sm font-semibold">2024 - Present</div>
+                  <div className="p-3 text-red-400 text-sm font-semibold">2022 - 2024</div>
                   {/* JOB COMPANY */}
-                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">Apple</div>
+                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">IT-Högskolan</div>
                 </div>
                 {/* CENTER */}
                 <div className="w-1/6 flex justify-center">
@@ -205,15 +207,13 @@ const About = () => {
                 {/* RIGHT */}
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
-                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">Erfarenhet 2</div>
+                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-e-lg">Surveillance Analyst</div>
                   {/* JOB DESC */}
-                  <div className="p-3 text-sm italic">
-                    I spearheaded React-based application development, leveraging advanced skills.{" "}
-                  </div>
+                  <div className="p-3 text-sm italic">Analytiker på Casino Cosmopols övervakningscentral.</div>
                   {/* JOB DATE */}
-                  <div className="p-3 text-red-400 text-sm font-semibold">2019 - 2024 </div>
+                  <div className="p-3 text-red-400 text-sm font-semibold">2024 - Idag</div>
                   {/* JOB COMPANY */}
-                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">Microsoft</div>
+                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">Casino Cosmopol</div>
                 </div>
               </div>
               {/* EXPERIENCE LIST ITEM */}
@@ -221,13 +221,114 @@ const About = () => {
                 {/* LEFT */}
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
-                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">Erfarenhet 3</div>
+                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">Fullstack (praktik)</div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                    I provided web solutions, applying a range of technologies to address client requirements.{" "}
+                    Fullstack utveckling i JavaScript. Var med och utvecklade en app från grunden till företaget.{" "}
                   </div>
                   {/* JOB DATE */}
-                  <div className="p-3 text-red-400 text-sm font-semibold">2010 - 2019 </div>
+                  <div className="p-3 text-red-400 text-sm font-semibold">2024 - 2024</div>
+                  {/* JOB COMPANY */}
+                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">Optimental</div>
+                </div>
+                {/* CENTER */}
+                <div className="w-1/6 flex justify-center">
+                  {/* LINE */}
+                  <div className="w-1 h-full bg-gray-600 rounded relative">
+                    {/* LINE CIRCLE */}
+                    <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2"></div>
+                  </div>
+                </div>
+                {/* RIGHT */}
+                <div className="w-1/3 "></div>
+              </div>
+
+              {/* EXPERIENCE LIST ITEM */}
+              <div className="flex justify-between h-48">
+                {/* LEFT */}
+                <div className="w-1/3 "></div>
+                {/* CENTER */}
+                <div className="w-1/6 flex justify-center">
+                  {/* LINE */}
+                  <div className="w-1 h-full bg-gray-600 rounded relative">
+                    {/* LINE CIRCLE */}
+                    <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2"></div>
+                  </div>
+                </div>
+                {/* RIGHT */}
+                <div className="w-1/3 ">
+                  {/* JOB TITLE */}
+                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-e-lg">Surveillance Officer</div>
+                  {/* JOB DESC */}
+                  <div className="p-3 text-sm italic">Surveillance Officer</div>
+                  {/* JOB DATE */}
+                  <div className="p-3 text-red-400 text-sm font-semibold">2003 - 2024</div>
+                  {/* JOB COMPANY */}
+                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">Casino Cosmopol</div>
+                </div>
+              </div>
+              {/* EXPERIENCE LIST ITEM */}
+              <div className="flex justify-between h-48">
+                {/* LEFT */}
+                <div className="w-1/3 ">
+                  {/* JOB TITLE */}
+                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">Frontend (praktik)</div>
+                  {/* JOB DESC */}
+                  <div className="p-3 text-sm italic">Var med och byggde upp delar av sidan Bildhistoria.se. </div>
+                  {/* JOB DATE */}
+                  <div className="p-3 text-red-400 text-sm font-semibold">2023 - 2023</div>
+                  {/* JOB COMPANY */}
+                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">Bildhistoria</div>
+                </div>
+                {/* CENTER */}
+                <div className="w-1/6 flex justify-center">
+                  {/* LINE */}
+                  <div className="w-1 h-full bg-gray-600 rounded relative">
+                    {/* LINE CIRCLE */}
+                    <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2"></div>
+                  </div>
+                </div>
+                {/* RIGHT */}
+                <div className="w-1/3 "></div>
+              </div>
+              {/* EXPERIENCE LIST ITEM */}
+              <div className="flex justify-between h-48">
+                {/* LEFT */}
+                <div className="w-1/3 "></div>
+                {/* CENTER */}
+                <div className="w-1/6 flex justify-center">
+                  {/* LINE */}
+                  <div className="w-1 h-full bg-gray-600 rounded relative">
+                    {/* LINE CIRCLE */}
+                    <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2"></div>
+                  </div>
+                </div>
+                {/* RIGHT */}
+                <div className="w-1/3 ">
+                  {/* JOB TITLE */}
+                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-e-lg">Surveillance Team Manager</div>
+                  {/* JOB DESC */}
+                  <div className="p-3 text-sm italic">
+                    Vikarierande Surveillance Team Manager på övervakningscentralen för Casino Cosmopol.
+                  </div>
+                  {/* JOB DATE */}
+                  <div className="p-3 text-red-400 text-sm font-semibold">2019 - 2020</div>
+                  {/* JOB COMPANY */}
+                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">Casino Cosmopol</div>
+                </div>
+              </div>
+              {/* EXPERIENCE LIST ITEM */}
+              <div className="flex justify-between h-48">
+                {/* LEFT */}
+                <div className="w-1/3 ">
+                  {/* JOB TITLE */}
+                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">Systemutveckling</div>
+                  {/* JOB DESC */}
+                  <div className="p-3 text-sm italic">Systemutveckling inom C, C++, Assembler. Telekommunikation.</div>
+                  {/* JOB DATE */}
+                  <div className="p-3 text-red-400 text-sm font-semibold">2023 - 2023</div>
+                  {/* JOB COMPANY */}
+                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">Bildhistoria</div>
                 </div>
                 {/* CENTER */}
                 <div className="w-1/6 flex justify-center">
