@@ -63,8 +63,8 @@ const About = () => {
                 stroke="#000000"
                 strokeWidth="1"
               ></path>
-              <path d="M12 6V14" stroke="#000000" strokeWidth="1"></path>
-              <path d="M15 11L12 14L9 11" stroke="#000000" strokeWidth="1"></path>
+              <path d="M12 6V14" stroke="#f87171" strokeWidth="1"></path>
+              <path d="M15 11L12 14L9 11" stroke="#f87171" strokeWidth="1"></path>
             </motion.svg>
           </div>
           {/* SKILLS CONTAINER */}
@@ -91,46 +91,47 @@ const About = () => {
                 A2
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Specific
+                Luftfotografering
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                A1/A3
+                Filmning
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                A2
+                Flygsäkerhet
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Specific
+                Kartläggning
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                A1/A3
+                Planering
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                A2
+                Programmering
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Specific
+                Situationsmedvetenhet
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                A1/A3
+                Inspektion
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                A2
+                Bildbehandling
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Specific
+                Riskhantering
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                A1/A3
+                Fotografering
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                A2
+                Videoövervakning
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Specific
+                Fjärrstyrning
               </div>
+
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                A1/A3
+                Luftrumskännedom
               </div>
             </motion.div>
             {/* SKILL SCROLL SVG */}
@@ -149,8 +150,8 @@ const About = () => {
                 stroke="#000000"
                 strokeWidth="1"
               ></path>
-              <path d="M12 6V14" stroke="#000000" strokeWidth="1"></path>
-              <path d="M15 11L12 14L9 11" stroke="#000000" strokeWidth="1"></path>
+              <path d="M12 6V14" stroke="#f87171" strokeWidth="1"></path>
+              <path d="M15 11L12 14L9 11" stroke="#f87171" strokeWidth="1"></path>
             </motion.svg>
           </div>
 
@@ -317,7 +318,9 @@ const About = () => {
                     <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2"></div>
                   </div>
                 </div>
+
                 {/* RIGHT */}
+
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 text-xs lg:text-sm font-semibold rounded-b-lg rounded-e-lg">
@@ -336,6 +339,7 @@ const About = () => {
               {/* EXPERIENCE LIST ITEM */}
               <div className="flex justify-between h-48">
                 {/* LEFT */}
+
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 text-xs lg:text-sm font-semibold rounded-b-lg rounded-s-lg">
@@ -346,9 +350,9 @@ const About = () => {
                     Systemutveckling inom C, C++, Assembler. Tele- kommunikation.
                   </div>
                   {/* JOB DATE */}
-                  <div className="p-3 text-red-400 text-xs lg:text-sm font-semibold">1998 - 2000</div>
+                  <div className="p-3 pb-4 text-red-400 text-xs lg:text-sm font-semibold">1998 - 2000</div>
                   {/* JOB COMPANY */}
-                  <div className="p-1 rounded bg-white text-xs lg:text-sm font-semibold w-fit">YH - TeliT</div>
+                  <div className="p-1 rounded bg-white text-xs lg:text-sm font-semibold w-fit">TeliT</div>
                 </div>
                 {/* CENTER */}
                 <div className="w-1/6 flex justify-center">
@@ -358,7 +362,9 @@ const About = () => {
                     <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2"></div>
                   </div>
                 </div>
+
                 {/* RIGHT */}
+
                 <div className="w-1/3 "></div>
               </div>
             </motion.div>
