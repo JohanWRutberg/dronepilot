@@ -10,7 +10,7 @@ const items = [
     color: "from-[#7996af] to-[#7996af]",
     title: "Uppdrag 1",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    img: "/AdobeStock_690339103.jpeg",
     link: ""
   },
   {
@@ -18,7 +18,7 @@ const items = [
     color: "from-[#7996af] to-violet-300",
     title: "Uppdrag 2",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    img: "/AdobeStock_774839830.jpeg",
     link: ""
   },
   {
@@ -26,7 +26,7 @@ const items = [
     color: "from-violet-300 to-purple-300",
     title: "Uppdrag 3",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    img: "/AdobeStock_732619458.jpeg",
     link: ""
   },
   {
@@ -34,7 +34,7 @@ const items = [
     color: "from-purple-300 to-purple-300",
     title: "Uppdrag 4",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    img: "/AdobeStock_478326863.jpeg",
     link: ""
   }
 ];
