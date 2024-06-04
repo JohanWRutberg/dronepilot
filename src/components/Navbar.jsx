@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useState } from "react";
 import NavLink from "./NavLink";
 import { motion } from "framer-motion";
+import { RiGithubLine, RiInstagramLine, RiLinkedinLine } from "react-icons/ri";
 
 const links = [
   { url: "/", title: "Home" },
@@ -85,17 +86,15 @@ const Navbar = () => {
       </div>
       {/* SOCIAL */}
       <div className="hidden md:flex gap-4 w-1/3  justify-center">
-        <Link href="/">
-          <Image src="/github.png" alt="" width={24} height={24} />
+        <Link href="https://github.com/JohanWRutberg" target="_blank">
+          <RiGithubLine />
         </Link>
-        <Link href="/">
-          <Image src="/instagram.png" alt="" width={24} height={24} />
+        <Link href="https://www.instagram.com/johansquaremountain/" target="_blank">
+          <RiInstagramLine />
         </Link>
-        <Link href="/">
-          <Image src="/pinterest.png" alt="" width={24} height={24} />
-        </Link>
-        <Link href="/">
-          <Image src="/linkedin.png" alt="" width={24} height={24} />
+
+        <Link href="http://linkedin.com/in/johan-rutberg-a0a093160" target="_blank">
+          <RiLinkedinLine />
         </Link>
       </div>
       {/* RESPONSIVE MENU */}
