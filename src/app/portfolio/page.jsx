@@ -7,7 +7,7 @@ import { useRef } from "react";
 const items = [
   {
     id: 1,
-    color: "from-[#7996af] to-blue-300",
+    color: "from-[#7996af] to-[#7996af]",
     title: "Uppdrag 1",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
     img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
@@ -15,7 +15,7 @@ const items = [
   },
   {
     id: 2,
-    color: "from-blue-300 to-violet-300",
+    color: "from-[#7996af] to-violet-300",
     title: "Uppdrag 2",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
     img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
@@ -31,7 +31,7 @@ const items = [
   },
   {
     id: 4,
-    color: "from-purple-300 to-red-300",
+    color: "from-purple-300 to-purple-300",
     title: "Uppdrag 4",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
     img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -83,12 +83,12 @@ const Portfolio = () => {
               >
                 <div className="flex flex-col gap-8 text-white">
                   <h1 className="text-xl font-bold md:text-4xl lg:text-6xl xl:text-8xl">{item.title}</h1>
-                  <div className="relative w-80 h-56 md:w-96 md:h-64 lg:w-[500px] lg:h-[350px] xl:w-[600px] xl:h-[420px]">
+                  <div className="relative w-80 h-56 md:w-96 md:h-64 lg:w-[500px] lg:h-[350px] xl:w-[600px] xl:h-[420px] border-4 border-black">
                     <Image src={item.img} alt="" fill />
                   </div>
-                  <p className="w-80 md:w96 lg:w-[500px] lg:text-lg xl:w-[600px]">{item.desc}</p>
+                  <p className="w-80 md:w96 lg:w-[500px] text-sm lg:text-lg xl:w-[600px]">{item.desc}</p>
                   <Link href={item.link} className="flex justify-end">
-                    <button className="p-2 text-sm md:p-4 md:text-md lg:p-8 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">
+                    <button className="p-2 text-sm md:p-4 md:text-md lg:p-4 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">
                       Se Mer
                     </button>
                   </Link>
@@ -98,7 +98,7 @@ const Portfolio = () => {
           </motion.div>
         </div>
       </div>
-      <div className="w-screen h-screen flex flex-col gap-16 items-center justify-center text-center">
+      <div className="w-screen h-screen bg-gradient-to-b from-purple-300 to-red-300 flex flex-col gap-16 items-center justify-center text-center">
         <h1 className="text-4xl lg:text-8xl">Behöver du hjälp?</h1>
         <div className="relative">
           <motion.svg

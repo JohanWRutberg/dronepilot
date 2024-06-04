@@ -288,7 +288,7 @@ const About = () => {
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-xs lg:text-sm italic">
-                    Var med och byggde upp delar av sidan Bildhistoria.se.{" "}
+                    Medverkade i att bygga upp delar till sidan Bildhistoria.se.{" "}
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-xs lg:text-sm font-semibold">2023 - 2023</div>
